@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  private btNome:string="ativar";
 
+  btClicou(){
+    this.btNome+=" 1";
+  }
 }

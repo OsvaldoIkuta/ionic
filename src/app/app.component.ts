@@ -19,6 +19,16 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Form',
+      url: '/form',
+      icon: 'football'
+    },
+    {
+      title: 'Chip',
+      url: '/chip',
+      icon: 'boat'
     }
   ];
 
